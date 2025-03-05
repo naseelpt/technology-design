@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import log from '../assets/logo.png';
 import { Menu } from 'lucide-react';
+import { Link } from 'react-scroll';
 
 
 
@@ -30,29 +31,29 @@ function Header() {
 
 
 
-                <h1 className='font-light text-xl'>Home</h1>
-                <h1 className='font-light text-xl'>About</h1>
-                <h1 className='font-light text-xl'>Service</h1>
-                <h1 className='font-light text-xl'>Textimonials</h1>
-                <h1 className='font-light text-xl'>Discover Plans</h1>
-                <h1 className='font-light text-xl'>Contact</h1>
+                <Link to='/'>   <h1 className='font-light text-xl'>Home</h1></Link>
+                <Link to='/about'>  <h1 className='font-light text-xl'>About</h1></Link>
+                <Link to='/service'>  <h1 className='font-light text-xl'>Service</h1></Link>
+                <Link to='/textimonia'><h1 className='font-light text-xl'>Textimonials</h1></Link>
+                <Link to='/discover'><h1 className='font-light text-xl'>Discover Plans</h1></Link>
+                <Link to='/contact'><h1 className='font-light text-xl'>Contact</h1></Link>
 
             </div>
 
 
 
             <div className='flex  md:hidden'>
-                <Menu onClick={()=>setopen(!open)}/>
+                <Menu onClick={() => setopen(!open)} />
 
 
-           {  open &&  <div >
+                {open && <div >
                     <h1 className='font-light text-xl'>Home</h1>
                     <h1 className='font-light text-xl'>About</h1>
                     <h1 className='font-light text-xl'>Service</h1>
                     <h1 className='font-light text-xl'>Textimonials</h1>
                     <h1 className='font-light text-xl'>Discover Plans</h1>
                     <h1 className='font-light text-xl'>Contact</h1>
-               </div>}
+                </div>}
 
             </div>
 

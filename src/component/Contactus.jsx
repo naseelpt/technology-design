@@ -1,8 +1,9 @@
 import React from 'react'
+import { Element } from 'react-scroll'
 
 function Contactus() {
     return (
-        <>
+        <Element name='/contact'>
 
 
             <div className='bg-white h-[700px] md:p-24 md:mt-[50px] mt-[1050px]'>
@@ -87,7 +88,7 @@ function Contactus() {
 
 
 
-        </>
+        </Element>
     )
 }
 

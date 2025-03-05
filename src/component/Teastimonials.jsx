@@ -1,9 +1,10 @@
 import React from 'react'
 import ico from '../assets/icon.png'
+import { Element } from 'react-scroll'
 
 function Teastimonials() {
     return (
-        <>
+        <Element name='/textimonia'>
 
 
             <div className='md:p-20 md:mt-10 mt-32'>
@@ -70,7 +71,7 @@ function Teastimonials() {
 
 
 
-        </>
+        </Element>
     )
 }
 

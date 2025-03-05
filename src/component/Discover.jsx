@@ -1,8 +1,9 @@
 import React from 'react'
+import { Element } from 'react-scroll'
 
 function Discover() {
     return (
-        <>
+        <Element Element name='/discover'>
 
             <div className='bg-gray-300 h-[950px] md:p-24 '>
 
@@ -211,7 +212,7 @@ function Discover() {
 
 
 
-        </>
+        </Element>
     )
 }
 

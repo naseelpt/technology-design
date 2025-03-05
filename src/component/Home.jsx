@@ -3,9 +3,10 @@ import Header from './Header'
 import img from '../assets/im1.png'
 import im from '../assets/im2.png'
 import i from '../assets/im3.png'
+import { Element } from 'react-scroll'
 function Home() {
   return (
-    <>
+    <Element Element name='/'>
 
 
 
@@ -81,7 +82,7 @@ function Home() {
     
     
     
-    </>
+    </Element>
   )
 }
 

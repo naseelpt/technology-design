@@ -1,9 +1,10 @@
 import React from 'react'
+import { Element } from 'react-scroll'
 
 
 function About() {
     return (
-        <>
+        <Element name='/about'>
 
             <div className='grid md:grid-cols-2  md:mt-64 mt-[700px]'>
 
@@ -64,7 +65,7 @@ function About() {
 
 
 
-        </>
+        </Element>
     )
 }
 

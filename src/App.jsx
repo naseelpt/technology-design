@@ -25,17 +25,7 @@ function App() {
 
 
 
-      {/* <Routes>
-
-        <Route path='/' element={<Home/>}/>
-        <Route path='/about' element={<About/>}/>
-        <Route path='/service' element={<Service/>}/>
-        <Route path='/testimonia' element={<Teastimonials/>}/>
-        <Route path='/discover' element={<Discover/>}/>
-
-
-
-      </Routes> */}
+     
   
    
 

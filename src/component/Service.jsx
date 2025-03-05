@@ -4,10 +4,11 @@ import de from '../assets/dev2.png'
 import d from '../assets/dev3.png'
 import dq from '../assets/dev4.png'
 import dqa from '../assets/dev5.png'
+import { Element } from 'react-scroll'
 
 function Service() {
     return (
-        <>
+        <Element name='/service'>
 
 
 
@@ -181,7 +182,7 @@ function Service() {
 
 
 
-        </>
+        </Element>
     )
 }
 
